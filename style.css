@@ -1,0 +1,52 @@
+body{
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+}
+
+#caldiv{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px ;
+}
+
+button {
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: coral;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 50px;
+}
+
+button:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 0.2ms;
+    color: red;
+}
+#divBtn{
+    text-align: center;
+}
+
+#equalBtn, #clearBtn{
+    color: red;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+}
+
+#inputId{
+    background-color: wheat;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#delBtn{
+    font-size: 20px;
+    padding: 14px;
+    margin: 5px;
+}

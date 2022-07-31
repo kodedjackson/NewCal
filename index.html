@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div id="caldiv">
+                <label id="cal">Calculator</label><br>
+                <input id="inputId" type="text" disabled>
+            </div>
+            <div id="divBtn">
+                
+                <button id="oneBtn" value="1" onclick="display('1')" >1</button>
+                <button id="twoBtn" value="2" onclick="display('2')" >2</button>
+                <button id="threeBtn" value="3" onclick="display('3')" >3</button>
+                <button id="addBtn" value="+" onclick="display('+')" >+</button><br>
+                <button id="fourBtn" value="4" onclick="display('4')" >4</button>
+                <button id="fiveBtn" value="5" onclick="display('5')" >5</button>
+                <button id="sixBtn" value="6" onclick="display('6')" >6</button>
+                <button id="subBtn" value="-" onclick="display('-')" >-</button><br>
+                <button id="sevenBtn" value="7" onclick="display('7')" >7</button>
+                <button id="eightBtn" value="8" onclick="display('8')" >8</button>  
+                <button id="NineBtn" value="9" onclick="display('9')" >9</button>
+                <button id="MultiBtn" value="*" onclick="display('*')" >*</button><br>
+                <button id="zeroBtn" value="0" onclick="display('0')" >0</button>
+                <button id="periodBtn" value="." onclick="display('.')" >.</button>
+                <button id="divideBtn" value="/" onclick="display('/')" >/</button>
+                <button id="delBtn" onclick="delBtn()" >DEL</button><br>
+                <button id="equalBtn" value="=" onclick="equalBtn()" >=</button>
+                <button id="clearBtn" value="0" onclick="clearAC()" >AC</button>
+            </div>
+
+        </main>
+    </body>
+    <script src="/main.js"></script>
+</html>
