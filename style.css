@@ -23,12 +23,14 @@ body{
 }
 
 button {
-    padding: 15px;
-    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 5px;
     color: white;
     background-color: #7DCE13;
     border-color: white;
     font-size: 50px;
+    width: 75px;
 }
 
 button:hover{
@@ -48,6 +50,7 @@ button:hover{
     padding-left: 45px;
     padding-right: 45px;
     text-align: center;
+    width: 155px;
 }
 
 #inputId{
