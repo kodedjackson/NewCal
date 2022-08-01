@@ -54,13 +54,12 @@ button:hover{
 }
 
 #inputId{
-    background-color: #7DCE13;
-    font-size: 30px;
+    color: #7DCE13;
+    font-size: 40px;
     border-radius: 50px;
-    margin-top: 20px;
+    margin-top: auto;
     text-align: center;
-    color: white;
+    background-color: white;
     width: 70%;
-    padding-top: 20px;
 }
 
