@@ -9,15 +9,15 @@
 }
 
 
-body{
-    background-color: #2B7A0B;
-    color: white;
+body{   
+    background-color: wh;
+    color: black;
     font-size: 20px;
 }
 
 #caldiv{
     padding-top: 20px;
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 20px ;
 }
@@ -25,18 +25,21 @@ body{
 button {
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 50px;
     margin: 5px;
-    color: white;
-    background-color: #7DCE13;
-    border-color: white;
+    margin-bottom: 25px;
+    color: black;
+    background-color:rgb(246, 247, 251);
     font-size: 50px;
     width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 button:hover{
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-delay: 0.2ms;
-    color: red;
+    color:rgb(246, 247, 251);
 }
 #divBtn{
     text-align: center;
@@ -46,7 +49,7 @@ button:hover{
 }
 
 #equalBtn, #clearBtn{
-    color: red;
+    color:rgb(246, 247, 251);
     padding-left: 45px;
     padding-right: 45px;
     text-align: center;
@@ -54,12 +57,15 @@ button:hover{
 }
 
 #inputId{
-    color: #7DCE13;
+    color: black;
     font-size: 40px;
     border-radius: 50px;
     margin-top: auto;
     text-align: center;
-    background-color: white;
+    background-color: rgb(195, 231, 255);
     width: 70%;
 }
 
+#addBtn, #subBtn, #multiBtn, #delBtn, #equalBtn, #clearBtn {
+    background-color: rgb(195, 231, 255);
+}
