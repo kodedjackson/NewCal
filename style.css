@@ -1,5 +1,5 @@
 body{
-    background-color: navy;
+    background-color: #2B7A0B;
     color: white;
     font-size: 20px;
 }
@@ -7,7 +7,7 @@ body{
 #caldiv{
     color: white;
     text-align: center;
-    padding-bottom: 50px ;
+    padding-bottom: 20px ;
 }
 
 button {
@@ -15,7 +15,7 @@ button {
     padding: 15px;
     margin: 10px;
     color: white;
-    background-color: coral;
+    background-color: #7DCE13;
     border-radius: 50px;
     border-color: white;
     font-size: 50px;
@@ -38,15 +38,11 @@ button:hover{
 }
 
 #inputId{
-    background-color: wheat;
+    background-color: #7DCE13;
     font-size: 30px;
     border-radius: 50px;
     margin-top: 20px;
     text-align: center;
+    color: white;
 }
 
-#delBtn{
-    font-size: 20px;
-    padding: 14px;
-    margin: 5px;
-}
