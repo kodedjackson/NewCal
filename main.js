@@ -15,5 +15,8 @@ function clearAC(){
 
 
 function delBtn(){
-    document.getElementById("inputId").pop();
+    var a = document.getElementById("inputId").value;  
+    document.getElementById("inputId").value = a.substring(0, a.length - 1); /* remove the element from total length ? 1 */  
+
 }
+
